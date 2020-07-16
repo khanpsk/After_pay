@@ -1,2 +1,2 @@
 # AfterPay
-An android based application to facilitate and provide credit system to the students of college.
+Buy anything anytime on credit on campus.
