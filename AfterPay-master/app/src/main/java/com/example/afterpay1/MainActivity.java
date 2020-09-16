@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if((userId.getText().toString().equals("184CA010") && userPassword.getText().toString().equals("HelloAdmin"))||
-                        (userId.getText().toString().equals("184CA059") && userPassword.getText().toString().equals("HelloAdmin")))
+                        (userId.getText().toString().equals("184CA059") && userPassword.getText().toString().equals("HelloAdmin"))||
+                  (userId.getText().toString().equals("184CA053") && userPassword.getText().toString().equals("HelloAdmin")))
                 {
                     startActivity(new Intent(MainActivity.this,AdministratorActivity.class));
                 }
